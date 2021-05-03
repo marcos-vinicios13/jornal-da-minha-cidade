@@ -1,0 +1,50 @@
+
+
+    .cabeçalho-pezalho{background-color: rgb(31, 31, 30);
+        margin: 0px;
+    }
+    header{text-align: center;
+    }
+body{
+    background-color: rgb(50, 50, 54);
+    font-family:cursive;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;}
+
+    #titulo{margin-top: 0px;
+        padding-top: 2%;
+    animation-name:piscar;
+    animation-duration: 5s;
+    ;}
+    #titulos{text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+img{width: 500px;
+margin: 10px;
+float: left;}
+
+
+nav ul{list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;}
+    
+    nav ul li:hover{color: rgba(255, 255, 255, 0.603);
+    font-size: 40px;
+    cursor: pointer;}
+
+    a:link{ color: white;} a:visited{ color: white;}
+    
+
+    @keyframes piscar{
+
+        0%{color: rgb(255, 255, 255);transform: rotate(0deg);}
+        10%{color: rgb(207, 205, 205);}
+        20%{color: rgb(97, 97, 96);}
+        30%{color: rgb(73, 73, 72);}
+        60%{color: rgb(51, 51, 50);}
+        80%{color: rgb(27, 27, 27);}
+        100%{color: rgb(255, 255, 255);transform: rotate(360deg);}
